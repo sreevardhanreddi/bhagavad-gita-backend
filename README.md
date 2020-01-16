@@ -8,6 +8,29 @@
   Backend code for BhagavadGita.io which is an built for Gita readers by Gita readers.
 </p>
 
+## Project Structure
+```
+.
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── app
+│   ├── __init__.py
+│   ├── main
+│   │   └── __init__.py
+│   ├── models
+│   │   └── __init__.py
+│   ├── schemas
+│   │   └── __init__.py
+│   └── utils.py
+├── config.py
+├── gita.png
+├── manage.py
+└── tests
+    └── test_basics.py
+```
+
 ## Developing Locally
 
 1. Fork this repository and clone the forked repository.
