@@ -36,6 +36,9 @@ def create_app(config_name):
     if not app.debug and not app.testing and not app.config['SSL_DISABLE']:
         from flask_sslify import SSLify
         SSLify(app)
+
+    from .main.views import main
+    app.register_blueprint(main)
     
     @app.errorhandler(ValidationError)
     def handle_marshmallow_validation(err):

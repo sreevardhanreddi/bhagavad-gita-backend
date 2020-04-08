@@ -1,7 +1,7 @@
 import os
 import sys
 
-from werkzeug.contrib.fixers import ProxyFix
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 PYTHON_VERSION = sys.version_info[0]
 if PYTHON_VERSION == 3:
