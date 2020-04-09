@@ -15,6 +15,7 @@ ma = Marshmallow()
 api = Api()
 cors = CORS()
 
+
 def create_app(config_name):
     app = Flask(__name__)
     app.config.from_object(config[config_name])
@@ -39,7 +40,7 @@ def create_app(config_name):
 
     from .main.views import main
     app.register_blueprint(main)
-    
+
     @app.errorhandler(ValidationError)
     def handle_marshmallow_validation(err):
         return jsonify(err.messages), 400

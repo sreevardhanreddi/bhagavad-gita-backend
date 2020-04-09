@@ -1,13 +1,6 @@
 import os
-import sys
 
 from werkzeug.middleware.proxy_fix import ProxyFix
-
-PYTHON_VERSION = sys.version_info[0]
-if PYTHON_VERSION == 3:
-    import urllib.parse
-else:
-    import urlparse
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 

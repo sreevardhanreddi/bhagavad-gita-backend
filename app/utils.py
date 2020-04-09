@@ -3,6 +3,7 @@
 
 from flask import url_for
 
+
 def register_template_utils(app):
     """Register Jinja 2 helpers (called from __init__.py)."""
 
