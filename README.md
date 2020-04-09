@@ -5,7 +5,7 @@
 </p>
 
 <h3 align="center">
-  Backend code for BhagavadGita.io which is an built for Gita readers by Gita readers.
+  Backend code for BhagavadGita.io which is an app built for Gita readers by Gita readers.
 </h2>
 
 <p align="center">
