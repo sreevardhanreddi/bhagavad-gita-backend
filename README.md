@@ -4,9 +4,21 @@
   </a>
 </p>
 
+<h3 align="center">
+  Backend code for BhagavadGita.io which is an app built for Gita readers by Gita readers.
+</h2>
+
 <p align="center">
-  Backend code for BhagavadGita.io which is an built for Gita readers by Gita readers.
+  <a href="https://github.com/gita/bhagavad-gita-backend/blob/master/LICENSE">
+    <img alt="LICENSE" src="https://img.shields.io/badge/License-GPLv3-blue.svg?maxAge=43200">
+  </a>
+  <a href="https://github.com/gita/bhagavad-gita-backend/actions?query=workflow%3ADev">
+    <img alt="GitHub Actions" src="https://github.com/gita/bhagavad-gita-backend/workflows/Dev/badge.svg">
+  </a>
+  <a href="https://codecov.io/github/gita/bhagavad-gita-backend"><img alt="Coverage Status" src="https://img.shields.io/codecov/c/github/gita/bhagavad-gita-backend/master.svg?logo=codecov"></a>
+  <a href="https://starcharts.herokuapp.com/gita/bhagavad-gita-backend"><img alt="Stars" src="https://img.shields.io/github/stars/gita/bhagavad-gita-backend.svg?style=social"></a>
 </p>
+
 
 ## Project Structure
 ```
@@ -38,3 +50,11 @@
 3. Use `pip install -r requirements.txt` to install the requirements.
 4. `python manage.py runserver` to start the server.
 5. API can be accessed at `http://127.0.0.1:5000`.
+
+
+### Supporting BhagavadGita.io (part of The Gita Initiative)
+
+Become GitHub Sponsor for [each contributor](https://github.com/gita/bhagavadgita/graphs/contributors)
+or become a backer or sponsor from [opencollective](https://opencollective.com/gita-initiative).
+
+[![Become a backer](https://opencollective.com/gita-initiative/tiers/backer.svg?avatarHeight=64)](https://opencollective.com/gita-initiative#backers)
