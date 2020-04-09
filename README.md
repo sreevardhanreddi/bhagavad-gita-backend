@@ -4,9 +4,21 @@
   </a>
 </p>
 
-<p align="center">
+<h3 align="center">
   Backend code for BhagavadGita.io which is an built for Gita readers by Gita readers.
+</h2>
+
+<p align="center">
+  <a href="https://github.com/gita/bhagavad-gita-backend/blob/master/LICENSE">
+    <img alt="LICENSE" src="https://img.shields.io/badge/License-GPLv3-blue.svg?maxAge=43200">
+  </a>
+  <a href="https://github.com/gita/bhagavad-gita-backend/actions?query=workflow%3ADev">
+    <img alt="GitHub Actions" src="https://github.com/gita/bhagavad-gita-backend/workflows/Dev/badge.svg">
+  </a>
+  <a href="https://codecov.io/github/gita/bhagavad-gita-backend"><img alt="Coverage Status" src="https://img.shields.io/codecov/c/github/gita/bhagavad-gita-backend/master.svg?logo=codecov"></a>
+  <a href="https://starcharts.herokuapp.com/gita/bhagavad-gita-backend"><img alt="Stars" src="https://img.shields.io/github/stars/gita/bhagavad-gita-backend.svg?style=social"></a>
 </p>
+
 
 ## Project Structure
 ```
