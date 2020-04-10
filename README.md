@@ -50,11 +50,3 @@
 3. Use `pip install -r requirements.txt` to install the requirements.
 4. `python manage.py runserver` to start the server.
 5. API can be accessed at `http://127.0.0.1:5000`.
-
-
-### Supporting BhagavadGita.io (part of The Gita Initiative)
-
-Become GitHub Sponsor for [each contributor](https://github.com/gita/bhagavadgita/graphs/contributors)
-or become a backer or sponsor from [opencollective](https://opencollective.com/gita-initiative).
-
-[![Become a backer](https://opencollective.com/gita-initiative/tiers/backer.svg?avatarHeight=64)](https://opencollective.com/gita-initiative#backers)
